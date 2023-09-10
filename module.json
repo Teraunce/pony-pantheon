@@ -10,14 +10,11 @@
         "verified": 11,
         "maximum": 12
     },
-    "authors": [
-        {
-            "name": "David Silver",
-			"name": "Teraunce",
-            "email": "",
-            "url": ""
-        }
-    ],
+    "authors": [{
+        "name": "David Silver"
+    }, {
+        "name": "Teraunce"
+    }],
     "packs": [
         {
             "type": "Item",
@@ -50,8 +47,23 @@
             "path": "packs/otari-world-journals-1694317398774.db",
             "name": "otari-world-journals-1694317398774",
             "system": "pf2e"
-        },"flags":{"pony-pantheon":{"pf2e-homebrew":{"creatureTraits":{"lumidragon":"Luminous Dragon","ponysatyr":"Pony Satyr"},"featTraits":{"lumidragon":"Luminous Dragon","ponysatyr":"Pony Satyr","class":"Class"}}}}
-    ],
+		}
+	],
+    "flags": {
+        "pony-pantheon": {
+            "pf2e-homebrew": {
+                "creatureTraits": {
+                    "lumidragon": "Luminous Dragon",
+                    "ponysatyr": "Pony Satyr"
+                },
+                "featTraits": {
+                    "lumidragon": "Luminous Dragon",
+                    "ponysatyr": "Pony Satyr",
+                    "class": "Class"
+                }
+            }
+        }
+    },
     "manifest": "https://github.com/Teraunce/pony-pantheon/releases/latest/download/module.json",
     "download": "https://github.com/Teraunce/pony-pantheon/releases/latest/download/module.zip"
 }

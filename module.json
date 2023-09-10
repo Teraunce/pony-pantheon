@@ -2,9 +2,9 @@
     "name": "pony-pantheon",
     "title": "Princess Luminace's Guide to the Pony Pantheon",
     "description": "A module containing the exported Princess Luminace's Guide to the Pony Pantheon compendium.",
-    "version": "0.7.1a",
+    "version": "0.7.1b",
     "library": "false",
-    "manifestPlusVersion": "0.7.1a",
+    "manifestPlusVersion": "0.7.1b",
     "compatibility": {
         "minimum": 10,
         "verified": 11,
@@ -20,32 +20,32 @@
             "type": "Item",
             "label": "All",
             "module": "pony-pantheon",
-            "path": "packs/otari-world-all-1694317398774.db",
-            "name": "otari-world-all-1694317398774",
+            "path": "packs/otari-world-all.db",
+            "name": "otari-world-all",
             "system": "pf2e"
         },
         {
             "type": "RollTable",
             "label": "Tables",
             "module": "pony-pantheon",
-            "path": "packs/otari-world-tables-1694317398774.db",
-            "name": "otari-world-tables-1694317398774",
+            "path": "packs/otari-world-tables.db",
+            "name": "otari-world-tables",
             "system": "pf2e"
         },
         {
             "type": "Actor",
             "label": "Traps",
             "module": "pony-pantheon",
-            "path": "packs/otari-world-traps-1694317398774.db",
-            "name": "otari-world-traps-1694317398774",
+            "path": "packs/otari-world-traps.db",
+            "name": "otari-world-traps",
             "system": "pf2e"
         },
         {
             "type": "JournalEntry",
             "label": "Journals",
             "module": "pony-pantheon",
-            "path": "packs/otari-world-journals-1694317398774.db",
-            "name": "otari-world-journals-1694317398774",
+            "path": "packs/otari-world-journals.db",
+            "name": "otari-world-journals",
             "system": "pf2e"
 		}
 	],
@@ -69,10 +69,10 @@
       "name": "Princess Luminace's Guide to the Pony Pantheon",
       "sorting": "m",
       "packs": [
-        "otari-world-all-1694317398774",
-        "otari-world-tables-1694317398774",
-        "otari-world-traps-1694317398774",
-        "otari-world-journals-1694317398774"
+        "otari-world-all",
+        "otari-world-tables",
+        "otari-world-traps",
+        "otari-world-journals"
         ]
     }
   ],

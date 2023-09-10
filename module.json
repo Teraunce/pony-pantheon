@@ -2,9 +2,9 @@
     "name": "pony-pantheon",
     "title": "Princess Luminace's Guide to the Pony Pantheon",
     "description": "A module containing the exported Princess Luminace's Guide to the Pony Pantheon compendium.",
-    "version": "0.7.1",
+    "version": "0.7.1a",
     "library": "false",
-    "manifestPlusVersion": "0.7.1",
+    "manifestPlusVersion": "0.7.1a",
     "compatibility": {
         "minimum": 10,
         "verified": 11,
@@ -67,7 +67,7 @@
 	"packFolders": [
     {
       "name": "Princess Luminace's Guide to the Pony Pantheon",
-      "sorting": "p",
+      "sorting": "m",
       "packs": [
         "otari-world-all-1694317398774",
         "otari-world-tables-1694317398774",

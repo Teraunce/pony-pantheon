@@ -1,54 +1,103 @@
 {
-    "name": "pony-pantheon",
-    "title": "Princess Luminace's Guide to the Pony Pantheon",
-    "description": "A module containing the exported Princess Luminace's Guide to the Pony Pantheon compendium.",
-    "version": "0.7.1b",
-    "library": "false",
-    "manifestPlusVersion": "0.7.1b",
-    "compatibility": {
-        "minimum": 10,
-        "verified": 11,
-        "maximum": 12
+  "id": "princess-luminaces-guide-to-the-pony-pantheon",
+  "title": "Princess Luminace's Guide to the Pony Pantheon",
+  "version": "0.7.2",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "ponyfinder-foundryvtt-module",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "pf2e-perception",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "battlezoo-ancestries-dragons-pf2e",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Princess Luminace's Guide to the Pony Pantheon 2nd Edition converted to FoundryVTT. Contains: 2 player ancestries, 13 Ancestry Feats, 1 trap, 2 Archetypes (1 partial and 1 full), 5 tables, 3 Journals, 4 new and 8 updated deities, 22 Class Feats, 6 new Heritages, 13 Mutations, 7 Spells, and a partridge in a pear tree.",
+  "authors": [
+    {
+      "name": "David Silver",
+      "discord": "davidsilver",
+      "flags": {}
     },
-    "authors": [{
-        "name": "David Silver"
-    }, {
-        "name": "Teraunce"
-    }],
-    "packs": [
-        {
-            "type": "Item",
-            "label": "All",
-            "module": "pony-pantheon",
-            "path": "packs/otari-world-all.db",
-            "name": "otari-world-all",
-            "system": "pf2e"
-        },
-        {
-            "type": "RollTable",
-            "label": "Tables",
-            "module": "pony-pantheon",
-            "path": "packs/otari-world-tables.db",
-            "name": "otari-world-tables",
-            "system": "pf2e"
-        },
-        {
-            "type": "Actor",
-            "label": "Traps",
-            "module": "pony-pantheon",
-            "path": "packs/otari-world-traps.db",
-            "name": "otari-world-traps",
-            "system": "pf2e"
-        },
-        {
-            "type": "JournalEntry",
-            "label": "Journals",
-            "module": "pony-pantheon",
-            "path": "packs/otari-world-journals.db",
-            "name": "otari-world-journals",
-            "system": "pf2e"
-		}
-	],
+    {
+      "name": "Teraunce Foaloke",
+      "discord": "teraunce",
+      "flags": {}
+    }
+  ],
+  "url": "example.com",
+  "packs": [
+    {
+      "name": "journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "tables",
+      "label": "Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "actors",
+      "label": "Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "everything-else",
+      "label": "Everything Else",
+      "path": "packs/everything-else",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ]
     "flags": {
         "pony-pantheon": {
             "pf2e-homebrew": {
@@ -69,13 +118,13 @@
       "name": "Princess Luminace's Guide to the Pony Pantheon",
       "sorting": "m",
       "packs": [
-        "otari-world-all",
-        "otari-world-tables",
-        "otari-world-traps",
-        "otari-world-journals"
+        "actors",
+        "tables",
+        "everything-else",
+        "journals"
         ]
     }
   ],
     "manifest": "https://github.com/Teraunce/pony-pantheon/releases/latest/download/module.json",
-    "download": "https://github.com/Teraunce/pony-pantheon/releases/latest/download/module.zip"
+    "download": "https://github.com/Teraunce/pony-pantheon/releases/latest/download/princess-luminaces-guide-to-the-pony-pantheon.zip"
 }

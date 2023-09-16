@@ -1,7 +1,7 @@
 {
   "id": "princess-luminaces-guide-to-the-pony-pantheon",
   "title": "Princess Luminace's Guide to the Pony Pantheon",
-  "version": "0.7.2",
+  "version": "0.9",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -31,10 +31,22 @@
         "id": "battlezoo-ancestries-dragons-pf2e",
         "type": "module",
         "compatibility": {}
+      },
+      {
+        "id": "pf2e-extension-pack",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+	"conflicts": [
+      {
+        "id": "pf2e-expansion-pack",
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },
-  "description": "Princess Luminace's Guide to the Pony Pantheon 2nd Edition converted to FoundryVTT. Contains: 2 player ancestries, 13 Ancestry Feats, 1 trap, 2 Archetypes (1 partial and 1 full), 5 tables, 3 Journals, 4 new and 8 updated deities, 22 Class Feats, 6 new Heritages, 13 Mutations, 7 Spells, and a partridge in a pear tree.",
+  "description": "Princess Luminace's Guide to the Pony Pantheon 2nd Edition converted to FoundryVTT. Contains: 2 player ancestries, 13 Ancestry Feats, 1 trap, 2 Archetypes (1 partial and 1 full), 5 tables, 3 Journals, 4 new and 8 updated deities, 22 Class Feats, 6 new Heritages, 13 Mutations, 9 Spells, and a partridge in a pear tree.",
   "authors": [
     {
       "name": "David Silver",
@@ -84,6 +96,17 @@
       },
       "system": "pf2e",
       "flags": {}
+    },{
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
     },
     {
       "name": "everything-else",
@@ -121,7 +144,8 @@
         "actors",
         "tables",
         "everything-else",
-        "journals"
+        "journals",
+		"spells"
         ]
     }
   ],
